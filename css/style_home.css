@@ -4,15 +4,15 @@
   box-sizing: border-box;
   font-family: Goldman;
 }
-body{
+body {
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
-header{
+header {
   min-height: 50px;
 }
-footer{
+footer {
   min-height: 50px;
   margin-top: auto;
 }
@@ -90,10 +90,37 @@ ul {
   align-items: center;
   padding: 26px;
 }
-.footer__section--rrss a{
+.footer__section--rrss a {
   margin: 10%;
 }
 
 .logo__footer {
   margin: 16px 0px;
+}
+.main__section {
+  display: flex;
+}
+.div__section--imagen {
+  width: 50%;
+  height: 85vh;
+  background-image: url("../img/fondo_home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.div__section--texto {
+  background: linear-gradient(
+    180.5deg,
+    rgba(255, 255, 255, 0) 0.43%,
+    rgba(252, 252, 252, 0.46) 5.93%,
+    rgba(255, 255, 255, 0.67) 9.33%,
+    rgba(255, 255, 255, 0.92) 13.64%,
+    rgba(250, 250, 250, 0.978249) 16.25%,
+    #f0f0f0 17.22%,
+    #ebebeb 19.94%,
+    #ebebeb 99.57%
+  );
+  mix-blend-mode: lighten;
+  height: 85vh;
+  width: 50%;
 }
