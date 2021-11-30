@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Goldman;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #e6e6e6;
+}
+header {
+  min-height: 72px;
+}
+footer {
+  min-height: 50px;
+  margin-top: auto;
+}
+.bg-rojo-principal {
+  background-color: #ee1c08;
+}
+.sectionheader__main {
+  display: flex;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  width: 100vw;
+}
+.header__section {
+  display: flex;
+  align-items: center;
+}
+.header__section--left {
+  justify-content: flex-start;
+}
+.header__section--right {
+  justify-content: flex-end;
+  margin-left: 45%;
+}
+.form-control {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  background: #ebebeb;
+  border: 1px solid #c2c2c2;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 206px;
+  height: 31px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: #a22216;
+}
+.section__nav > a,
+option {
+  color: #ffffff;
+  margin: 0px 20px;
+}
+.logo {
+  margin-left: 26px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+.sectionfooter__main {
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  height: 72px;
+  justify-content: space-evenly;
+}
+.footer__section {
+  display: flex;
+}
+.footer__section--nav {
+  justify-content: center;
+  align-items: center;
+}
+.footer__section--rrss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px;
+}
+.footer__section--rrss a {
+  margin: 10%;
+}
+
+.logo__footer {
+  margin: 16px 0px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main__div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 434px;
+  height: 334px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+.main__div > h1 {
+  font-family: Goldman;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.div__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.div__form > input {
+  width: 345px;
+  height: 31.2px;
+  background: #ebebeb;
+  border: 1px solid #c2c2c2;
+  box-sizing: border-box;
+  border-radius: 13px;
+  margin: 22.8px 0px;
+}
+.div__form .btn{
+  color: #EBEBEB;
+  background: #EE1C08;
+  border: 1px solid #121212;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 198px;
+height: 35px;
+}
