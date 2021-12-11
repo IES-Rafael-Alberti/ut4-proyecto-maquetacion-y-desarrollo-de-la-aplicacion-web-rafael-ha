@@ -38,10 +38,10 @@ footer {
 .header__section--left {
   justify-content: center;
 }
-.section__nav{
+.section__nav {
   display: flex;
 }
-.section__nav--left{
+.section__nav--left {
   align-content: center;
   width: 320px;
 }
@@ -61,11 +61,12 @@ footer {
   width: 206px;
   height: 31px;
 }
-.form-control::placeholder{
+.form-control::placeholder {
   text-align: center;
   color: #121212;
   opacity: 0.31;
 }
+
 a {
   text-decoration: none;
 }
@@ -149,8 +150,8 @@ main {
   align-items: center;
   min-height: 255px;
 }
-.div__form > input:first-child{
-  margin-top:0;
+.div__form > input:first-child {
+  margin-top: 0;
 }
 .div__form > input {
   width: 345px;
@@ -159,14 +160,15 @@ main {
   border: 1px solid #c2c2c2;
   box-sizing: border-box;
   border-radius: 13px;
-  margin: auto;
   text-align: center;
+  margin: auto;
 }
-.div__form > input::placeholder{
+.div__form > input::placeholder {
   text-align: center;
   color: #c2c2c2;
 }
-.div__form > p,span{
+.div__form > p,
+span {
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
@@ -176,7 +178,7 @@ main {
   align-items: center;
   align-content: center;
 }
-.div__form p>span{
+.div__form p > span {
   margin-left: 0.2em;
   text-decoration: underline;
 }

@@ -4,6 +4,12 @@
   box-sizing: border-box;
   font-family: Goldman;
 }
+h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+}
 body {
   max-height: 100vh;
   max-width: 100vw;
@@ -38,10 +44,10 @@ footer {
 .header__section--left {
   justify-content: center;
 }
-.section__nav{
+.section__nav {
   display: flex;
 }
-.section__nav--left{
+.section__nav--left {
   align-content: center;
   width: 320px;
 }
@@ -61,7 +67,7 @@ footer {
   width: 206px;
   height: 31px;
 }
-.form-control::placeholder{
+.form-control::placeholder {
   text-align: center;
   color: #121212;
   opacity: 0.31;
@@ -127,18 +133,14 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 434px;
-  height: 334px;
+  width: 663px;
+  height: 736px;
   background: rgba(255, 255, 255, 0.7);
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   align-content: space-evenly;
 }
 .main__div > h1 {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 24px;
   text-align: center;
 }
 .div__form {
@@ -146,39 +148,37 @@ main {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   min-height: 255px;
 }
-.div__form > input:first-child{
-  margin-top:0;
+.div__form > input:first-child {
+  margin-top: 0;
 }
-.div__form > input {
-  width: 345px;
-  height: 31.2px;
+.div__form input,
+textarea {
   background: #ebebeb;
   border: 1px solid #c2c2c2;
   box-sizing: border-box;
   border-radius: 13px;
-  margin: auto;
-  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
 }
-.div__form > input::placeholder{
-  text-align: center;
-  color: #c2c2c2;
-}
-.div__form > p,span{
+.div__form input,
+textarea,
+label {
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
-  line-height: 15px;
-  display: flex;
-  align-items: center;
-  align-content: center;
+  font-size: 14px;
+  line-height: 16px;
 }
-.div__form p>span{
-  margin-left: 0.2em;
-  text-decoration: underline;
+.div__form input {
+  width: 520px;
+  height: 45px;
+}
+.div__form textarea {
+  resize: none;
+  width: 520px;
+  height: 263px;
 }
 .div__form .btn {
   color: #ebebeb;
@@ -186,7 +186,7 @@ main {
   border: 1px solid #121212;
   box-sizing: border-box;
   border-radius: 13px;
-  width: 198px;
+  width: 362px;
   height: 35px;
   margin-bottom: 0;
 }

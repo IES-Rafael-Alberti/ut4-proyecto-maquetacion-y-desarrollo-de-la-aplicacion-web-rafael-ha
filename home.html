@@ -6,13 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style_home.css" />
+  <script src="https://kit.fontawesome.com/7cbcbc8d34.js" crossorigin="anonymous"></script>
+
   <title>Home</title>
 </head>
 
 <body>
   <header class="bg-rojo-principal">
     <section class="sectionheader__main">
-      <a href="home.html" class="logo"><img src="img/logo.png" alt="Logo" /></a>
+      <a href="home.html" class="logo__desktop"><img src="img/logo.png" alt="Logo" /></a>
+      <a href="home.html" class="logo__movil"><img src="img/logo_movil.png" alt="Logo" /></a>
+      <button class="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
       <section class="header__section header__section--left">
         <nav class="section__nav">
           <a href="carreras.html">CARRERAS</a>
@@ -34,24 +40,23 @@
   </header>
   <main>
     <section class="main__section">
-      <div class="div__section--imagen"></div>
-      <div class="div__section--texto">
+      <div class="div__section--imagen">
         <section class="mainsection__section">
           <article class="section__article section__article--principal">
             <div>
               <h1>BIENVENIDO</h1>
-              <p>AL ARCHIVO HISTORICO DE LA FORMULA 1</p>
+              <h2>AL ARCHIVO HISTORICO DE LA FORMULA 1</h2>
             </div>
           </article>
           <article class="section__article section__article--menu">
             <div>
-              <p>Carreras</p>
+              <h3>Carreras</h3>
             </div>
             <div>
-              <p>Pilotos</p>
+              <h3>Pilotos</h3>
             </div>
             <div>
-              <p>Mundiales</p>
+              <h3>Mundiales</h3>
             </div>
           </article>
         </section>
@@ -76,7 +81,6 @@
         <a href="instagram.com"><img src="img/tabler_brand-instagram.png" alt="Icono Instagram"></a>
         <a href="facebook.com"><img src="img/tabler_brand-facebook.png" alt="Icono Facebook"></a>
         <a href="twitter.com"><img src="img/tabler_brand-twitter.png" alt="Icono Twitter"></a>
-        </ul>
       </section>
     </section>
   </footer>
