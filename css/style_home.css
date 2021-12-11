@@ -95,10 +95,10 @@ option {
   display: block;
   margin-left: 26px;
 }
-.logo__movil{
+.logo__movil {
   display: none;
 }
-.hamburger{
+.hamburger {
   background-color: transparent;
   border: 0;
   color: #ebebeb;
@@ -106,7 +106,7 @@ option {
   cursor: pointer;
   font-size: 16px;
 }
-.hamburger:focus{
+.hamburger:focus {
   outline: none;
 }
 .sectionfooter__main {
@@ -115,11 +115,10 @@ option {
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
-  height: 72px;
   justify-content: space-evenly;
   max-width: 1328px;
-  margin: auto;
   flex-wrap: wrap;
+  margin: auto;
 }
 .footer__section {
   display: flex;
@@ -132,10 +131,10 @@ option {
 .footer__section--rrss {
   justify-content: space-between;
   align-items: center;
-  padding: 26px;
+  margin: 26px;
   align-content: center;
 }
-.footer__section--rrss a>img {
+.footer__section--rrss a > img {
   padding: 0px 26px;
 }
 
@@ -161,7 +160,9 @@ option {
   max-height: 100vh;
   margin-top: 146px;
   margin-right: 50px;
-  align-items: center;
+}
+.mainsection__section--movil{
+  display: none;
 }
 .section__article div {
   background: rgba(255, 255, 255, 0.7);
@@ -173,7 +174,7 @@ option {
   align-items: center;
   text-align: center;
 }
-.section__article--principal{
+.section__article--principal {
   margin-bottom: 138px;
 }
 .section__article--principal div {
@@ -189,75 +190,99 @@ option {
   height: 9.875rem;
 }
 
-@media screen and (max-width:977px) {
-  .sectionheader__main{
+@media screen and (max-width: 1105px) {
+  .sectionheader__main {
     justify-content: space-between;
   }
-  .header__section{
+  .header__section {
     display: none;
   }
-  .hamburger{
+  .hamburger {
     display: block;
     font-size: 40px;
     margin-right: 26px;
   }
-  h1{
-    font-size:  2.438rem;
+  h1 {
+    font-size: 2.438rem;
   }
-  h2{
+  h2 {
     font-size: 1.563rem;
   }
-  h3{
+  h3 {
     font-size: 1.063rem;
   }
+  .mainsection__section{
+    margin-top: 92px;
+  }
+  .section__article--principal{
+    margin: auto;
+  }
   .section__article--principal div {
-    width: 20.625rem;
-    height: 8.625rem;
+    width: 23.688rem;
+    height: 12.125rem;
+  }
+  .section__article--menu {
+    flex-direction: column;
   }
   .section__article--menu div {
-    width: 6.469rem;
-    height: 4.937rem;
+    width: 23.688rem;
+    height: 7.75rem;
+    margin-top: 16px;
   }
+  .section__nav{
+    flex-direction: column;
+    align-items: center;
+  }
+  .section__nav > a{
+    margin: 24px 0px;
+  }
+  .sectionfooter__main{
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+  .footer__section--rrss a > img {
+    padding: 0px 20px;
+  }
+
 }
-@media screen and (max-width:768px) {
-  .sectionheader__main{
+@media screen and (max-width: 768px) {
+  .sectionheader__main {
     justify-content: space-between;
   }
-  .header__section{
+  .header__section {
     display: none;
   }
-  .hamburger{
+  .hamburger {
     display: block;
     font-size: 22px;
     margin-right: 26px;
   }
-  .logo__desktop{
+  .logo__desktop {
     display: none;
   }
-  .logo__movil{
+  .logo__movil {
     display: block;
     align-self: center;
     margin-left: 26px;
   }
-}
-@media screen and (max-width:480px) {
-  .sectionheader__main{
-    justify-content: space-between;
+  .div__section--imagen {
+    background-image: url("../img/fondo_homemovil.jpg");
   }
-  .header__section{
+  .main__section{
+    flex-direction: column;
+  }
+  .mainsection__section{
+    align-content: center;
+    margin: auto;
+  }
+  .section__article--menu div:last-child{
+    margin-bottom: 86px;
+  }
+  .mainsection__section--desktop{
     display: none;
   }
-  .hamburger{
-    display: block;
-    font-size: 22px;
-    margin-right: 26px;
-  }
-  .logo__desktop{
-    display: none;
-  }
-  .logo__movil{
-    display: block;
-    align-self: center;
-    margin-left: 26px;
+  .mainsection__section--movil{
+   display: flex; 
   }
 }
