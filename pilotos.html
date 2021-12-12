@@ -7,13 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pilotos</title>
     <link rel="stylesheet" href="css/style_pilotos.css">
+    <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/7cbcbc8d34.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header class="bg-rojo-principal">
         <section class="sectionheader__main">
-            <a href="home.html" class="logo"><img src="img/logo.png" alt="Logo" /></a>
+            <a href="home.html" class="logo__desktop"><img src="img/logo.png" alt="Logo" /></a>
+            <a href="home.html" class="logo__movil"><img src="img/logo_movil.png" alt="Logo" /></a>
+            <button class="hamburger" id="menu_ham">
+                <i class="fas fa-bars"></i>
+            </button>
             <section class="header__section header__section--left">
                 <nav class="section__nav">
                     <a href="carreras.html">CARRERAS</a>
@@ -30,6 +35,7 @@
                     <a href="registro.html">REGISTRO</a>
                 </nav>
             </section>
+            </nav>
         </section>
     </header>
     <main>
@@ -56,14 +62,12 @@
                                 <img src="img/LEW.png" alt="Lewis Hamilton">
                                 <i class='far fa-heart' style='font-size:24px'></i>
                             </div>
-
                         </section>
                         <section class="article__sectioninfo">
                             <h2>MICHAEL SCHUMACHER</h2>
                             <div class="sectioninfo__div"><img src="img/MSC.png" alt="Michael Schumacher">
                                 <i class='far fa-heart' style='font-size:24px'></i>
                             </div>
-
                         </section>
                         <section class="article__sectioninfo">
                             <h2>SEBASTIAN VETTEL</h2>
@@ -222,8 +226,140 @@
                             </table>
                         </div>
                     </section>
-                </article>
-            </section>
+                    <section class="section__movil">
+                        <section>
+                            <section class="article__sectioninfo">
+                                <h2>LEWIS HAMILTON</h2>
+                                <div class="sectioninfo__div">
+                                    <img src="img/LEW.png" alt="Lewis Hamilton">
+                                    <i class='far fa-heart' style='font-size:24px'></i>
+                                </div>
+                            </section>
+                            <div class="tg-wrap">
+                                <table class="tg">
+                                    <colgroup>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <th class="th__principal" colspan="2">Mundiales</th>
+                                            <td colspan="2" class="th__secundario">Victorias</td>
+                                            <td>Edad</td>
+                                            <td>36</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2" rowspan="3" class="td__principal">7</th>
+                                            <td colspan="2" class="td__secundario">100</td>
+                                            <td>Pais</td>
+                                            <td>Reino Unido</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="th__secundario">Poles</th>
+                                            <td>Carreras</td>
+                                            <td>282</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="td__secundario">101</td>
+                                            <td>Escuderia</td>
+                                            <td>Mercedes</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        <section>
+                            <section class="article__sectioninfo">
+                                <h2>MICHAEL SCHUMACHER</h2>
+                                <div class="sectioninfo__div"><img src="img/MSC.png" alt="Michael Schumacher">
+                                    <i class='far fa-heart' style='font-size:24px'></i>
+                                </div>
+                            </section>
+                            <div class="tg-wrap">
+                                <table class="tg">
+                                    <colgroup>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <th class="th__principal" colspan="2">Mundiales</th>
+                                            <td colspan="2" class="th__secundario">Victorias</td>
+                                            <td>Edad</td>
+                                            <td>36</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2" rowspan="3" class="td__principal">7</th>
+                                            <td colspan="2" class="td__secundario">100</td>
+                                            <td>Pais</td>
+                                            <td>Reino Unido</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="th__secundario">Poles</th>
+                                            <td>Carreras</td>
+                                            <td>282</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="td__secundario">101</td>
+                                            <td>Escuderia</td>
+                                            <td>Mercedes</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                        <section>
+                            <section class="article__sectioninfo">
+                                <h2>SEBASTIAN VETTEL</h2>
+                                <div class="sectioninfo__div"><img src="img/VET.png" alt="Sebastian Vettel"><i
+                                        class='far fa-heart' style='font-size:24px'></i></div>
+                            </section>
+                            <div class="tg-wrap">
+                                <table class="tg">
+                                    <colgroup>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                        <col>
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <th class="th__principal" colspan="2">Mundiales</th>
+                                            <td colspan="2" class="th__secundario">Victorias</td>
+                                            <td>Edad</td>
+                                            <td>36</td>
+                                        </tr>
+                                        <tr>
+                                            <th colspan="2" rowspan="3" class="td__principal">7</th>
+                                            <td colspan="2" class="td__secundario">100</td>
+                                            <td>Pais</td>
+                                            <td>Reino Unido</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="th__secundario">Poles</th>
+                                            <td>Carreras</td>
+                                            <td>282</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" class="td__secundario">101</td>
+                                            <td>Escuderia</td>
+                                            <td>Mercedes</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+                    </section>
         </div>
     </main>
     <footer class="bg-rojo-principal">
