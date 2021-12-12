@@ -1,3 +1,4 @@
+/* GENERICO */
 * {
   padding: 0;
   margin: 0;
@@ -24,6 +25,22 @@ body {
 footer {
   margin-top: auto;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: transparent;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+
+/* HEADER */
 .bg-rojo-principal {
   background-color: #ee1c08;
 }
@@ -86,12 +103,6 @@ footer {
   color: #121212;
   opacity: 0.31;
 }
-a {
-  text-decoration: none;
-}
-a:hover {
-  background-color: transparent;
-}
 .section__nav > a,
 option {
   color: #ffffff;
@@ -115,6 +126,8 @@ option {
 .hamburger:focus {
   outline: none;
 }
+
+/* FOOTER */
 .sectionfooter__main {
   display: flex;
   font-style: normal;
@@ -147,13 +160,7 @@ option {
 .logo__footer {
   margin: 16px 0px;
 }
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 100vh;
-}
+/* MAIN */
 .main__error {
   animation: entrada 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   display: flex;
@@ -164,6 +171,7 @@ main {
 .logo {
   animation: shake 3s linear infinite both;
 }
+/* ANIMACIONES */
 @keyframes shake {
   0%,
   100% {
@@ -198,7 +206,7 @@ main {
     opacity: 1;
   }
 }
-
+/* RESPONSIVE */
 @media screen and (max-width: 1105px) {
   .sectionheader__main {
     justify-content: space-between;

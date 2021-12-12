@@ -1,3 +1,4 @@
+/* GENERICO */
 * {
   padding: 0;
   margin: 0;
@@ -29,6 +30,14 @@ body {
 footer {
   margin-top: auto;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: transparent;
+}
+
+/* HEADER */
 .bg-rojo-principal {
   background-color: #ee1c08;
 }
@@ -91,12 +100,6 @@ footer {
   color: #121212;
   opacity: 0.31;
 }
-a {
-  text-decoration: none;
-}
-a:hover {
-  background-color: transparent;
-}
 .section__nav > a,
 option {
   color: #ffffff;
@@ -120,6 +123,8 @@ option {
 .hamburger:focus {
   outline: none;
 }
+
+/* FOOTER */
 .sectionfooter__main {
   display: flex;
   font-style: normal;
@@ -148,10 +153,11 @@ option {
 .footer__section--rrss a > img {
   padding: 0px 26px;
 }
-
 .logo__footer {
   margin: 16px 0px;
 }
+
+/* MAIN */
 .main__section {
   display: flex;
 }
@@ -201,7 +207,17 @@ option {
   height: 9.875rem;
 }
 
+/* RESPONSIVE */
 @media screen and (max-width: 1105px) {
+  h1 {
+    font-size: 2.438rem;
+  }
+  h2 {
+    font-size: 1.563rem;
+  }
+  h3 {
+    font-size: 1.063rem;
+  }
   .sectionheader__main {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -248,20 +264,10 @@ option {
     height: 7.75rem;
     margin-top: 16px;
   }
-  h1 {
-    font-size: 2.438rem;
-  }
-  h2 {
-    font-size: 1.563rem;
-  }
-  h3 {
-    font-size: 1.063rem;
-  }
   .mainsection__section {
     margin-top: 92px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .hamburger {
     font-size: 22px;
