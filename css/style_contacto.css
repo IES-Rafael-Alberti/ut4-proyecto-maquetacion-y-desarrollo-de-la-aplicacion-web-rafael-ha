@@ -224,7 +224,7 @@ label {
     margin: 5.375rem 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 870px) {
   h1 {
     font-size: 19px;
   }
@@ -235,9 +235,7 @@ label {
     display: none;
   }
   .hamburger {
-    display: block;
     font-size: 22px;
-    margin-right: 26px;
   }
   .logo__desktop {
     display: none;

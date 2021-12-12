@@ -370,9 +370,7 @@ main {
     width: 0%;
   }
   .hamburger {
-    display: block;
     font-size: 22px;
-    margin-right: 26px;
   }
   .logo__desktop {
     display: none;

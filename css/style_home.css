@@ -247,16 +247,8 @@ option {
 
 }
 @media screen and (max-width: 768px) {
-  .sectionheader__main {
-    justify-content: space-between;
-  }
-  .header__section {
-    display: none;
-  }
   .hamburger {
-    display: block;
     font-size: 22px;
-    margin-right: 26px;
   }
   .logo__desktop {
     display: none;

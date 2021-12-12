@@ -234,7 +234,10 @@ main {
     margin: 5.375rem 0;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 870px) {
+  .hamburger {
+    font-size: 22px;
+  }
   .sectionheader__main {
     justify-content: space-between;
   }
