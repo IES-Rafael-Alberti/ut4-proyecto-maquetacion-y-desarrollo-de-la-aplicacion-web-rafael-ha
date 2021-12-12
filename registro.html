@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/style_registro.css" />
   <script src="https://kit.fontawesome.com/7cbcbc8d34.js" crossorigin="anonymous"></script>
-
+  <script src="js/main.js"></script>
   <title>Registro</title>
 </head>
 
@@ -35,7 +35,17 @@
           <a href="registro.html">REGISTRO</a>
         </nav>
       </section>
+      
     </section>
+    <nav class="nav__movil">
+      <ul>
+        <li><a href="carreras.html">Carreras</a></li>
+        <li><a href="pilotos.html">Pilotos</a></li>
+        <li><a href="mundiales.html">Mundiales</a></li>
+        <li><a href="acceso.html">Acceso</a></li>
+        <li><a href="registro.html">Registro</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <div class="main__div">
@@ -43,9 +53,9 @@
       <form action="404.html" class="div__form">
         <input type="text" name="usuario" id="usuario" placeholder="Usuario" required>
         <input type="password" name="contraseña" id="passwd" placeholder="Contraseña"
-          pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
+          pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="Letras y números. Tamaño minimo: 8. Requerido">
         <input type="password" name="rep_contraseña" id="repasswd" placeholder="Repita contraseña"
-          pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
+          pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="Letras y números. Tamaño minimo: 8. Requerido">
         <p>Si tienes cuenta,<a href="acceso.html">inicia sesion.</a></p>
         <input type="submit" value="REGISTRAR" class="btn">
       </form>
